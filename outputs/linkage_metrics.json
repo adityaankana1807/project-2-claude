@@ -1,0 +1,30 @@
+{
+  "n_incidents": 575,
+  "n_true_linked_pairs": 378,
+  "n_total_pairs": 165025,
+  "auc": {
+    "jaccard": 0.783957954878166,
+    "tonkin2025": 0.7132257827335782,
+    "combined_logreg": 0.9998461024413098
+  },
+  "median_first_rank": {
+    "jaccard": 13.0,
+    "tonkin2025": 12.0,
+    "combined_logreg": 1.0
+  },
+  "top100_hit_rate": {
+    "jaccard": 0.6192721088435374,
+    "tonkin2025": 0.6151043083900227,
+    "combined_logreg": 1.0
+  },
+  "top500_hit_rate": {
+    "jaccard": 0.9687414965986396,
+    "tonkin2025": 0.9592993197278912,
+    "combined_logreg": 1.0
+  },
+  "combined_model_coefficients": {
+    "tonkin_similarity": 0.1208545856997794,
+    "neg_distance_km": 0.35640613298747736,
+    "neg_day_gap": 0.030119558065484053
+  }
+}

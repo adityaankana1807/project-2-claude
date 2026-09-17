@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+networkx
+statsmodels
+openpyxl
+matplotlib
+plotly
+folium
+streamlit
+torch
